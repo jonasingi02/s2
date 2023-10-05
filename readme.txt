@@ -3,11 +3,11 @@
  *  Name & Kt:  Dagur Kári Ólafsson, kt: 311003-2750
  *  Name & Kt:  
  *
- *  Operating system:
- *  Compiler:
- *  Text editor / IDE:
+ *  Operating system: Windows/macOs
+ *  Compiler: javac
+ *  Text editor / IDE: Vscode
  *
- *  Have you taken (part of) this course before:
+ *  Have you taken (part of) this course before: No
  *
  *  Hours to complete assignment (optional):
  *
