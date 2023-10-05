@@ -39,15 +39,6 @@ public class Brute {
 
 
     public static void main(String[] args) {
-        // In in = new In();
-        // Out out = new Out();
-        // int n = in.readInt();
-        // Point[] points = new Point[n];
-        // for (int i = 0; i < n; i++) {
-        //     int x = in.readInt(), y = in.readInt();
-        //     points[i] = new Point(x, y);
-        // }
-        // brute(points);
         Point[] points = new Point[15];
         points[0] = new Point(10,0);
         points[1] = new Point(8,2);
