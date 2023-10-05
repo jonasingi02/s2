@@ -12,7 +12,13 @@ public class Point implements Comparable<Point> {
     public final int x, y;
 
     // compare points by slope
-    public final Comparator<Point> SLOPE_ORDER = null;
+    public final Comparator<Point> SLOPE_ORDER = new Comparator<point>() {
+        @Override
+        public int compare(Point p1, Point p2) {
+            double slope1 = slope;
+            return compare(slopeto(p1), slopeto(p2));
+        }
+    };
 
     // create the point (x, y)
     public Point(int x, int y) {
